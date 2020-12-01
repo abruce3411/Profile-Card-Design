@@ -1,0 +1,95 @@
+body{
+  height:100%;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(/Users/abruce3411/Desktop/FEM/profilecardcomponent/images/bg-pattern-top.svg), url(/Users/abruce3411/Desktop/FEM/profilecardcomponent/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position-x: -20vw, 50vw;
+  background-position-y: -50vh, 50vh;
+}
+
+h2{
+  font-size: 1.2REM;
+}
+.mainContainer{
+height: 80vh;
+margin: 20vh 3vw 20vh 3vw;
+display:flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.subContainer1{
+  background-color: white;
+  height: 390px;
+  width: 340px;
+  margin: auto;
+  border-radius: 25px;
+  position:relative;
+  font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+.cardborder{
+  width:100% ;
+  height: 38%;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  z-index: 1;
+  position:absolute;
+}
+.profile{
+  position:relative;
+  border-radius:50%;
+  left:117px;
+  z-index: 9;
+  top: 100px;
+  border: 5px solid white;
+}
+
+.subContainer11{
+  position:relative;
+  top: 100px;
+  font-size:18px;
+}
+
+.subContainer12{
+  position:relative;
+  top:100px;
+  display:flex;
+  justify-content: space-around;
+  font-size:18px;
+}
+.subContainer121{
+  text-align:center;
+}
+.subContainer122{
+  text-align:center;
+}
+.subContainer123{
+  text-align:center;
+}
+
+h4{
+  font-size: 12px;
+  font-weight: normal;
+  color: hsl(0, 0%, 59%);
+}
+
+.thick{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.thin{
+  font-weight: normal;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  font-size: 1rem;
+}
+
+.line{
+  position:relative;
+  margin: 0;
+}
