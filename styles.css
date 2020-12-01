@@ -1,7 +1,7 @@
 body{
   height:100%;
   background-color: hsl(185, 75%, 39%);
-  background-image: url(/Users/abruce3411/Desktop/FEM/profilecardcomponent/images/bg-pattern-top.svg), url(/Users/abruce3411/Desktop/FEM/profilecardcomponent/images/bg-pattern-bottom.svg);
+  background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
   background-position-x: -20vw, 50vw;
   background-position-y: -50vh, 50vh;
